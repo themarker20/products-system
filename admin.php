@@ -1,6 +1,6 @@
 <?php
 session_start();
-$admin_password = "admin123"; // Change this password
+$admin_password = "*********"; // Change this password
 
 if (isset($_POST['password']) && $_POST['password'] === $admin_password) {
     $_SESSION['admin'] = true;
