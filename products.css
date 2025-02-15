@@ -1,0 +1,21 @@
+img {
+  user-drag: none; /* Prevents dragging */
+  user-select: none; /* Prevents text selection */
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none; /* Prevents interactions */
+}
+
+
+@media (max-width: 800px) {
+  .welcome{
+    font-size: 28px;
+  }
+
+  .headline {
+    margin: 30px 0;
+    font-size: 23px;
+  }
+}
